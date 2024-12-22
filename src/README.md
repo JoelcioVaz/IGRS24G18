@@ -82,3 +82,5 @@ Verificação de PIN: Lógica dedicada para validação de mensagens MESSAGE.
 
 Para Rodar o script é necessário usar a maquina virtual xbuntu23. Dentro na maquina virtual rodar o ficheiro app-a.cfg na directoria /igrstools/kamailio/app-a.cfg , no penultimo comando  substituir o .py pelo script.
 Depois na linha de comando dentro da directoria , rodar o comando sudo kamailio -f app-a.cfg -E -D 2
+Rodar também o servidor de conferencia com o comando semsconf.cfg -E -D 2
+Rodar o servidor de anuncio sems semsanounce.cfg -E -D 2
