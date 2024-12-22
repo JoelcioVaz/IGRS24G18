@@ -80,4 +80,5 @@ Manuseio de Mensagens SIP: Implementação robusta de métodos como REGISTER, IN
 Encaminhamento Condicional: Suporte para estados como "busy" e "inconference".
 Verificação de PIN: Lógica dedicada para validação de mensagens MESSAGE.
 
-Para Rodar o script é necessário usar a maquina virtual xbuntu23. Dentro na maquina virtual rodar o ficheiro app-a.cfg na directoria /igrstools/kamailio/app-a.cfg , no comando que tem 
+Para Rodar o script é necessário usar a maquina virtual xbuntu23. Dentro na maquina virtual rodar o ficheiro app-a.cfg na directoria /igrstools/kamailio/app-a.cfg , no penultimo comando  substituir o .py pelo script.
+Depois na linha de comando dentro da directoria , rodar o comando sudo kamailio -f app-a.cfg -E -D 2
