@@ -130,7 +130,7 @@ class kamailio:
         # Handle conference room joining
         to_uri = KSR.pv.get("$tu")  # Get the To URI
         if "@acme.pt" in to_uri:
-            KSR.pv.sets("$ru", "sip:conferencia@127.0.0.1:5080")
+            KSR.pv.sets("$ru", "sip:conferencia@127.0.0.1:5090")
             KSR.tm.t_relay()  # Forward to conference server
         else:
             KSR.sl.send_reply(403, "Forbidden")  # Not acme.pt domain
